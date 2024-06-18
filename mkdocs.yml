@@ -1,1 +1,32 @@
-site_name: React Error Explained
+site_name: React Errors Explained
+site_url: https://github.com/Njoxpy/React-Error-Explained
+site_author: "Godbless Nyagawa"
+site_description: "Explanations and solutions for common errors encountered while working with React."
+
+
+theme:
+  name: "material"
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: "blue"
+      accent: "cyan"
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: "blue"
+      accent: "cyan"
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+
+extra_css:
+  - "stylesheets/custom.css"
+
+extra_javascript:
+  - "javascripts/custom.js"
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
